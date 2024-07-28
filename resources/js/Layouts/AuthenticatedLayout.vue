@@ -40,6 +40,8 @@ import {useForm, usePage} from "@inertiajs/vue3";
 import FormProgress from "@/Components/app/FormProgress.vue";
 import ErrorDialog from "@/Components/ErrorDialog.vue";
 import Notification from "@/Components/Notification.vue";
+import { loadLanguageAsync } from 'laravel-vue-i18n';
+//import axios from "axios";
 
 // Uses
 const page = usePage();
@@ -105,10 +107,25 @@ function uploadFiles(files) {
     })
 }
 
+const setLocale = () => {
+    /*
+    axios.post(route('language'), { locale: locale })
+    .catch(error => {
+        console.log(error);
+    });
+    */
+    loadLanguageAsync(page.props.language);
+
+};
+
 // Hooks
 onMounted(() => {
+    setLocale();
+
     emitter.on(FILE_UPLOAD_STARTED, uploadFiles)
 })
+
+
 
 </script>
 
