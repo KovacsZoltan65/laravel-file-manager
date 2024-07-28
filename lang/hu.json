@@ -1,3 +1,9 @@
 {
-    "my_files": "Fájljaim"
+    "my_files": "Fájljaim",
+
+    "file_name": "Fájlnév",
+    "owner": "Tulajdonos",
+    "path": "Útvonal",
+    "last_modified": "Utolsó módosítás",
+    "size": "Méret"
 }
