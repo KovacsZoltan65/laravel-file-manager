@@ -5,7 +5,7 @@
                    v-model="search"
                    autocomplete
                    @keyup.enter.prevent="onSearch"
-                   placeholder="Search for files and folders"/>
+                   :placeholder="$t('search_placeholder')"/>
     </div>
 </template>
 

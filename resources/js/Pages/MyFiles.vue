@@ -26,7 +26,7 @@
 
             <div class="flex">
                 <label class="flex items-center mr-3">
-                    Only Favourites
+                    {{ $t('only_favourites') }}
                     <Checkbox @change="showOnlyFavourites" v-model:checked="onlyFavourites" class="ml-2" />
                 </label>
                 <ShareFilesButton :all-selected="allSelected" :selected-ids="selectedIds" />
@@ -111,7 +111,7 @@
             </table>
 
             <div v-if="!allFiles.data.length" class="py-8 text-center text-sm text-gray-400">
-                There is no data in this folder
+                {{ $t('folder_is_empty') }}
             </div>
             <div ref="loadMoreIntersect"></div>
         </div>

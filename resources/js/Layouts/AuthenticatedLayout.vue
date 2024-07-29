@@ -9,7 +9,7 @@
               :class="dragOver ? 'dropzone' : ''">
 
             <template v-if="dragOver" class="text-gray-500 text-center py-8 text-sm">
-                Drop files here to upload
+                {{ $t('drop_files_to_upload') }}
             </template>
             <template v-else>
                 <div class="flex items-center justify-between w-full">
