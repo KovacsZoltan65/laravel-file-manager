@@ -1,14 +1,18 @@
 <template>
 <Modal :show="show" max-width="md">
     <div class="p-6">
-        <h2 class="text-2xl mb-2 font-semibold">Please Confirm</h2>
+        <h2 class="text-2xl mb-2 font-semibold">
+            {{ $t('please_confirm') }}
+        </h2>
         <p>{{message}}</p>
 
         <div class="mt-6 flex justify-end">
-            <SecondaryButton @click="$event => emit('cancel')">Cancel</SecondaryButton>
+            <SecondaryButton @click="$event => emit('cancel')">
+                {{ $t('cancel') }}
+            </SecondaryButton>
 
             <DangerButton class="ml-3" @click="$event => emit('confirm')">
-                Confirm
+                {{ $t('confirm') }}
             </DangerButton>
         </div>
     </div>

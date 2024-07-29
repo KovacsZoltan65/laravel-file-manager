@@ -15,10 +15,10 @@
                         <Checkbox @change="onSelectAllChange" v-model:checked="allSelected" />
                     </th>
                     <th class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-                        Name
+                        {{ $t('name') }}
                     </th>
                     <th class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
-                        Path
+                        {{ $t('path') }}
                     </th>
                 </tr>
                 </thead>
@@ -42,7 +42,7 @@
             </table>
 
             <div v-if="!allFiles.data.length" class="py-8 text-center text-sm text-gray-400">
-                There is no data in this folder
+                {{ $t('folder_is_empty') }}
             </div>
             <div ref="loadMoreIntersect"></div>
         </div>

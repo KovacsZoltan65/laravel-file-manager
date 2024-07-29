@@ -11,7 +11,7 @@
     </button>
 
     <ConfirmationDialog :show="showConfirmationDialog"
-                        message="Are you sure you want to restore selected files?"
+                        :message="$t('restore_file_confirm')"
                         @cancel="onCancel"
                         @confirm="onConfirm">
 

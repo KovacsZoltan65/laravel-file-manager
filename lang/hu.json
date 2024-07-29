@@ -1,0 +1,88 @@
+{
+    "my_files": "Fájljaim",
+    "share": "Ossza meg",
+    "shared_with_me": "Megosztotta velem",
+    "shared_by_me": "Általam megosztott",
+    "trash": "Szemét",
+
+    "ok": "OK",
+    "error": "Hiba",
+    "name": "Név",
+    "email": "Email",
+    "password": "Jelszó",
+    "confirm_password": "Jelszó megerősítése",
+    "current_password": "Jelenlegi jelszó",
+    "new_password": "Új jelszó",
+    "remember_me": "Emlékezz rám",
+    "delete": "Törlés",
+    "delete_forever": "Törölje örökre",
+    "delete_confirm": "Biztosan törölni szeretné a kiválasztott fájlokat?",
+
+    "dashboard": "Iránítópult",
+    "download": "Letöltés",
+
+    "save": "Mentés",
+    "saved": "Mentve",
+
+    "drop_files_to_upload": "Húzza ide a fájlokat a feltöltéshez",
+
+    "profile": "Profil",
+    "profile_information_title": "Profil információ",
+    "profile_information_description": "Frissítse fiókja profiladatait és e-mail címét.",
+    "email_unverified": "Az Ön e-mail címe nincs ellenőrizve.",
+
+    "already_registered": "Már regisztrált?",
+    "folder_is_empty": "Ebben a mappában nincsenek adatok",
+    
+    "confirm_password_title": "Jelszó megerősítése",
+    "confirm_password_description": "Ez az alkalmazás biztonságos területe. A folytatás előtt erősítse meg jelszavát.",
+
+    "forgot_password": "Elfelejtette a jelszavát?",
+    "forgot_password_title": "Elfelejtett jelszó",
+    "forgot_passwprd_description": "Elfelejtette a jelszavát? Nincs baj. Csak adja meg e-mail címét, és e-mailben küldjük a jelszó visszaállítását link, amely lehetővé teszi, hogy válasszon egy újat.",
+
+    "verify_email_title": "Email ellenőrzés",
+    "verify_email_description": "Köszönjük a feliratkozást! Mielőtt elkezdené, ellenőrizheti e-mail címét a linkre kattintva most küldtünk neked e-mailt? Ha nem kapta meg az e-mailt, szívesen küldünk egy másikat.",
+    "verify_email_send": "Igazoló e-mail újraküldése",
+    "verify_email_sended": "Új ellenőrző linket küldtünk a regisztráció során megadott e-mail címre.",
+    "verify_email_resend": "Igazoló e-mail újraküldve",
+
+    "login_title": "Belépés",
+
+    "reset_password_title": "Jelszó visszaállítása",
+    "reset_password": "Jelszó visszaállítása",
+
+    "register": "Regisztráció",
+    "login": "Belépés",
+    "logout": "Kilépés",
+    "confirm": "Megerősítés",
+    "please_confirm": "Kérem erősítse meg",
+    "cancel": "Mégsem",
+    "password_reset_link": "Link küldése",
+
+    "file_name": "Fájlnév",
+    "owner": "Tulajdonos",
+    "path": "Útvonal",
+    "last_modified": "Utolsó módosítás",
+    "size": "Méret",
+
+    "delete_account_title": "Fiók törlése",
+    "delete_account_description": "A fiók törlését követően az összes erőforrás és adat véglegesen törlődik. Fiókja törlése előtt kérjük, töltsön le minden olyan adatot vagy információt, amelyet meg szeretne őrizni.",
+    "delete_account_confirm": "Biztos benne, hogy törölni akarja fiókját?",
+    "delete_file_confirm": "Biztosan törölni szeretné a kiválasztott fájlokat?",
+    "restore_file_confirm": "Biztosan vissza szeretné állítani a kiválasztott fájlokat?",
+
+    "update_password_title": "Jelszó frissítése",
+    "update_password_description": "Győződjön meg róla, hogy fiókja hosszú, véletlenszerű jelszót használ a biztonság megőrzése érdekében.",
+
+    "only_favourites": "Csak a Kedvencek",
+
+    "search_placeholder": "Fájlok és mappák keresése",
+
+    "create_folder": "Új mappa létrehozása",
+    "submit": "Beküldés",
+
+    "folder_name": "Mappa neve",
+    "create_new": "Új létrehozása",
+    "new_folder": "Új mappa"
+}

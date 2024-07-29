@@ -1,0 +1,88 @@
+{
+    "my_files": "My Files",
+    "share": "Share",
+    "shared_with_me": "Shared with me",
+    "shared_by_me": "Shared by me",
+    "trash": "Trash",
+
+    "ok": "OK",
+    "error": "Error",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "remember_me": "Remember me",
+    "delete": "Delete",
+    "delete_forever": "Delete Forever",
+    "delete_confirm": "Are you sure you want to delete selected files?",
+    
+    "dashboard": "Dashboard",
+    "download": "Download",
+
+    "save": "Save",
+    "saved": "Saved",
+
+    "drop_files_to_upload": "Drop files here to upload",
+
+    "profile": "Profile",
+    "profile_information_title": "Profile Information",
+    "profile_information_description": "Update your account's profile information and email address.",
+    "email_unverified": "Your email address is unverified.",
+
+    "already_registered": "Already registered?",
+    "folder_is_empty": "There is no data in this folder",
+
+    "confirm_password_title": "Confirm Password",
+    "confirm_password_description": "This is a secure area of the application. Please confirm your password before continuing.",
+
+    "forgot_password": "Forgot your password?",
+    "forgot_password_title": "Forgot Password",
+    "forgot_passwprd_description": "Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.",
+
+    "verify_email_title": "Email Verification",
+    "verify_email_description": "Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn't receive the email, we will gladly send you another.",
+    "verify_email_send": "Resend Verification Email",
+    "verify_email_sended": "A new verification link has been sent to the email address you provided during registration.",
+    "verify_email_resend": "Verification Email Resended",
+
+    "login_title": "Log in",
+
+    "reset_password_title": "Reset Password",
+    "reset_password": "Reset Password",
+
+    "register": "Register",
+    "login": "Login",
+    "logout": "Log out",
+    "confirm": "Confirm",
+    "please_confirm": "Please Confirm",
+    "cancel": "Cancel",
+    "password_reset_link": "Email Password Reset Link",
+
+    "file_name": "Filename",
+    "owner": "Owner",
+    "path": "Path",
+    "last_modified": "Last Modified",
+    "size": "Size",
+
+    "delete_account_title": "Delete Account",
+    "delete_account_description": "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.",
+    "delete_account_confirm": "Are you sure you want to delete your account?",
+    "delete_file_confirm": "Are you sure you want to delete selected files?",
+    "restore_file_confirm": "Are you sure you want to restore selected files?",
+
+    "update_password_title": "Update Password",
+    "update_password_description": "Ensure your account is using a long, random password to stay secure.",
+
+    "only_favourites": "Only Favourites",
+
+    "search_placeholder": "Search for files and folders",
+
+    "create_folder": "Create New Folder",
+    "submit": "Submit",
+
+    "folder_name": "Folder Name",
+    "create_new": "Create New",
+    "new_folder": "New Folder"
+}

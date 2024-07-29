@@ -16,6 +16,8 @@ use Inertia\Inertia;
 |
 */
 
+Route::post('/language', ['', 'index'])->name('language');
+
 Route::get('/', function () {
     return Inertia::render('Welcome', [
         'canLogin' => Route::has('login'),

@@ -135,10 +135,10 @@ class FileController extends Controller
         }
 
         // Lapozzás beállítása
-        $files = $query->paginate(10);
+        $result = $query->paginate(10);
 
         // Alakítsa át a fájlokat FileResource objektummá
-        $files = FileResource::collection($files);
+        $files = FileResource::collection($result);
 
         // Ha a kérelem JSON-választ szeretne, adja vissza a fájlokat JSON-ként
         if ($request->wantsJson()) {

@@ -19,6 +19,7 @@
     "dependencies": {
         "@headlessui/vue": "^1.7.13",
         "@heroicons/vue": "^2.0.17",
+        "laravel-vue-i18n": "^2.7.7",
         "mitt": "^3.0.0"
     }
 }
