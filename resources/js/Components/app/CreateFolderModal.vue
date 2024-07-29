@@ -2,28 +2,33 @@
     <modal :show="modelValue" @show="onShow" max-width="sm">
         <div class="p-6">
             <h2 class="text-lg font-medium text-gray-900">
-                Create New Folder
+                {{ $t('Create New Folder') }}
             </h2>
             <div class="mt-6">
-                <InputLabel for="folderName" value="Folder Name" class="sr-only"/>
+                <InputLabel for="folderName" 
+                    :value="$t('folder_name')" 
+                    class="sr-only"/>
 
                 <TextInput type="text"
                            ref="folderNameInput"
                            id="folderName" v-model="form.name"
                            class="mt-1 block w-full"
                            :class="form.errors.name ? 'border-red-500 focus:border-red-500 focus:ring-red-500' : ''"
-                           placeholder="Folder Name"
+                           :placeholder="$t('folder_name')"
                            @keyup.enter="createFolder"
                 />
                 <InputError :message="form.errors.name" class="mt-2"/>
 
             </div>
             <div class="mt-6 flex justify-end">
-                <SecondaryButton @click="closeModal">Cancel</SecondaryButton>
+                <SecondaryButton @click="closeModal">
+                    {{ $t('cancel') }}
+                </SecondaryButton>
                 <PrimaryButton class="ml-3"
                                :class="{ 'opacity-25': form.processing }"
-                               @click="createFolder" :disable="form.processing">
-                    Submit
+                               @click="createFolder" 
+                               :disable="form.processing">
+                    {{ $t('submit') }}
                 </PrimaryButton>
             </div>
         </div>

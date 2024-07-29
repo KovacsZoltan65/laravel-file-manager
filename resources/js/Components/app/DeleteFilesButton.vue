@@ -10,7 +10,7 @@
     </button>
 
     <ConfirmationDialog :show="showDeleteDialog"
-                        message="Are you sure you want to delete selected files?"
+                        :message="$t('delete_file_confirm')"
                         @cancel="onDeleteCancel"
                         @confirm="onDeleteConfirm">
 

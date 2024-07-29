@@ -69,11 +69,20 @@
     "delete_account_title": "Fiók törlése",
     "delete_account_description": "A fiók törlését követően az összes erőforrás és adat véglegesen törlődik. Fiókja törlése előtt kérjük, töltsön le minden olyan adatot vagy információt, amelyet meg szeretne őrizni.",
     "delete_account_confirm": "Biztos benne, hogy törölni akarja fiókját?",
+    "delete_file_confirm": "Biztosan törölni szeretné a kiválasztott fájlokat?",
+    "restore_file_confirm": "Biztosan vissza szeretné állítani a kiválasztott fájlokat?",
 
     "update_password_title": "Jelszó frissítése",
     "update_password_description": "Győződjön meg róla, hogy fiókja hosszú, véletlenszerű jelszót használ a biztonság megőrzése érdekében.",
 
     "only_favourites": "Csak a Kedvencek",
 
-    "search_placeholder": "Fájlok és mappák keresése"
+    "search_placeholder": "Fájlok és mappák keresése",
+
+    "create_folder": "Új mappa létrehozása",
+    "submit": "Beküldés",
+
+    "folder_name": "Mappa neve",
+    "create_new": "Új létrehozása",
+    "new_folder": "Új mappa"
 }
